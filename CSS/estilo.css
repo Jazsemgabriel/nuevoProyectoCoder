@@ -1,0 +1,1449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para toda la página */
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #e8e8e8;
+  font-style: normal;
+  text-transform: none;
+}
+
+.sectionContacto {
+  background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+  padding: 40px;
+  transition: all 2s;
+}
+
+.contactoText {
+  margin: auto;
+  padding: 0%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactoText h3 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contactoText a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.contactoText a:hover {
+  background-color: white;
+  color: black;
+}
+
+@keyframes palpitoCorazon {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sectionTestimonio {
+  padding: 40px 0px;
+  background: #e8e8e8;
+  color: #111111;
+  text-align: center;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+  margin: 26px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonioQuote {
+  background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+  padding: 30px;
+  color: white;
+  font-size: 14px;
+}
+
+.testimonioQuote img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+
+/* Estilos para todos los footers */
+
+footer {
+  background: #111111;
+  margin: auto;
+}
+
+.tituloFooter {
+  text-decoration: none;
+  color: white;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.redes ul li a {
+  display: block;
+  padding: 0 10px;
+  background: grey;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/* Estilos para la página del Menú Principal */
+
+.menuPrincipal {
+  list-style: none;
+  background: #111111;
+  margin: auto;
+}
+
+.menuPrincipal li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  font-weight: bold;
+}
+
+.menuPrincipal li {
+  display: block;
+  text-align: center;
+}
+
+.menuPrincipal li a:hover {
+  background: #ef8354;
+}
+
+.tituloMenuPrincipal {
+  text-decoration: none;
+  padding: 0%;
+  margin: auto;
+  font-size: 40px;
+}
+
+/* Estilos para el Home */
+
+.bannerHome {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/innovacion.jpg");
+}
+
+.bannerContentHome {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentHome h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentHome p {
+  margin-top: -1vh;
+  padding: 0%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.bannerContentHome a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentHome a:hover {
+  background-color: white;
+  color: black;
+}
+
+.articleIndex {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  background-color: #e8e8e8;
+}
+
+.articleIndex article {
+  position: relative;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+.articleIndexItem {
+  background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+  border-radius: 15px;
+  margin: 20px 0px;
+  width: 50%;
+  padding: 40px;
+  color: white;
+}
+
+.articleIndexItem h2 {
+  margin: 10px;
+}
+
+.articleIndexItem p {
+  margin: 20px;
+  font-size: 14px;
+}
+
+.articleIndex a {
+  text-decoration: none;
+  background: orange;
+  color: white;
+  padding: 5px;
+  border: 0;
+  box-shadow: none;
+}
+
+.clientesTextHome {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.clientesTextHome ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.clientesTextHome li {
+  text-align: center;
+  line-height: 50px;
+}
+
+.clientesTextHome h2 {
+  font-size: 30px;
+}
+
+.clientesTextHome a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+
+/* Estilos para la sección de Nosotros*/
+
+.bannerNosotros {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/Agencia.jpg");
+}
+
+.bannerContentNosotros {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentNosotros h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentNosotros p {
+  margin-top: -1vh;
+  padding: 0%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.bannerContentNosotros a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentNosotros a:hover {
+  background-color: white;
+  color: black;
+}
+
+.contenedorNosotros {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  padding: 20px 20px;
+}
+
+.tituloEvolucion {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.tituloEvolucion p {
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imagenEvolucion{
+  text-align: center;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.tituloTransformacion {
+  padding: 40px 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloTransformacion h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.tituloTransformacion h3 {
+  font-size: 35px;
+}
+
+.tituloTransformacion div {
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.tituloTransformacion a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.tituloTransformacion a:hover {
+  background-color: white;
+  color: black;
+}
+
+.sectionPartners {
+  padding: 40px 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.sectionPartners h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.sectionPartners img {
+  max-width: 100%;
+  height: auto;
+  margin: 40px 40px;
+}
+
+.sectionClientesUs {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.sectionClientesUs h2 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.sectionClientesUs ul {
+  list-style: none;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.sectionClientesUs li {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Estilos para la sección de Soluciones*/
+
+.bannerSoluciones {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/marketing.jpg");
+}
+
+.bannerContentSoluciones {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentSoluciones h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentSoluciones p {
+  margin-top: -1vh;
+  padding: 0%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.bannerContentSoluciones a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentSoluciones a:hover {
+  background-color: white;
+  color: black;
+}
+
+.styleSoluciones {
+  padding: 40px 0px 60px 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.styleSoluciones article {
+  position: relative;
+  width: 30%;
+  height: 280px;
+  padding: 0 60px;
+}
+
+.styleSoluciones article p {
+  width: 320px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.styleSoluciones button {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
+
+.solucionesH2 {
+  font-size: 30px;
+}
+
+.solucionesParrafos {
+  font-size: 16px;
+  line-height: 1.5;
+  word-spacing: 5px;
+}
+
+.sectionEstrategia {
+  padding: 40px 20px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionEstrategia h2 {
+  font-size: 40px;
+}
+
+
+.sectionBox {
+  padding: 0%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.sectionBox div {
+  position: relative;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px dashed rgb(194, 177, 177);
+}
+
+.sectionBox div p {
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+/* Estilos para la sección de Cultura Digital*/
+
+.bannerCultura {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/blog.jpg");
+}
+
+.bannerContentCultura {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentCultura h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentCultura p {
+  margin-top: -1vh;
+  padding: 0%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.bannerContentCultura a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentCultura a:hover {
+  background-color: white;
+  color: black;
+}
+
+.blogsCulturaDigital {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.blogsCulturaDigital article img {
+  width: 100%;
+  height: auto;
+}
+
+.blogsCulturaDigital a {
+  background: orange;
+  color: white;
+  padding: 5px;
+  display: block;
+  margin: 20px 0px;
+  border: 0;
+  box-shadow: none;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.blogsCulturaDigital p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.menuBlogs {
+  list-style: none;
+  padding: 0%;
+  background: #111111;
+  margin: 30px 25px 30px 25px;
+}
+
+.menuBlogs li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  font-weight: bold;
+}
+
+.menuBlogs li {
+  display: block;
+  text-align: center;
+}
+
+.menuBlogs li a:hover {
+  background: #ef8354;
+}
+
+/* Estilos para la sección de Contacto */
+
+.bannerContacto {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/contacto.jpg");
+  margin-bottom: 40px;
+}
+
+.bannerContentContacto {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentContacto h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentContacto a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentContacto p {
+  margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 250px;
+}
+
+.bannerContentContacto a:hover {
+  background-color: white;
+  color: black;
+}
+
+.form {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  align-content: center;
+}
+
+.formRegistro {
+  margin: auto;
+  padding: 30px;
+  width: 70%;
+  border-radius: 4px;
+  background: linear-gradient(rgb(0, 34, 59), rgb(11, 101, 146));
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.formRegistro h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 95%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #646464;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.controls select {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #646464;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.checkbox {
+  width: 100%;
+  padding: 0px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.target {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.formRegistro .botonesForm {
+  width: 99%;
+  background: rgba(255, 17, 0, 0.705);
+  border: none;
+  padding: 10px;
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.sectionTestimonio {
+  padding: 0%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.testimonioGabriel {
+  margin-right: 200px;
+  text-align: right;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tablet: Header Styles  */
+
+  .menuPrincipal li {
+    display: block;
+    font-size: 24px;
+  } 
+
+  /* Tablet: Home Styles  */
+
+  .articleIndex {
+    flex-direction: column;
+  }
+
+  .articleIndex article p {
+    width: 290px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .bannerContentHome h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .bannerContentHome p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1vh;
+  }
+
+  .clientesTextHome ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .clientesTextHome li {
+    text-align: center;
+  }
+
+  /* Tablet: Nosotros Styles  */
+
+  .bannerContentNosotros h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .bannerContentNosotros p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1vh;
+  }
+
+  .imagenEvolucion{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tituloEvolucion {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  .tituloEvolucion p {
+    font-size: 22px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tituloTransformacion {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tituloTransformacion div {
+    display: inline-block;
+  }
+
+  .sectionClientesUs {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+  }
+
+  .sectionClientesUs h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .sectionClientesUs ul {
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .sectionClientesUs li {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .col {
+    flex: 100%;
+    max-width: 70%;
+  }
+
+  /* Tablet: Soluciones Styles  */
+
+  .bannerContentSoluciones h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .bannerContentSoluciones p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1vh;
+  }
+
+  /* Tablet: Cultura Digital Styles  */
+
+  .bannerContentCultura h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .bannerContentCultura p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1vh;
+  }
+
+  .menuBlogs li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .blogsCulturaDigital a {
+    font-size: 16px;
+  }
+  
+  .blogsCulturaDigital p {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  /* Tablet: Contacto Styles  */
+
+  .formRegistro{
+    width: 80%;
+  }
+
+  .bannerContentContacto h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    width: 550px;
+  }
+
+  .bannerContentContacto p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 450px;
+    margin-bottom: 1vh;
+  }
+
+  .contactoText {
+    margin: auto;
+    padding: 0%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactoText h3 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    width: 400px;
+  }
+
+  /* Tablet: Footer Styles  */
+
+  .redes {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .tituloFooter {
+    text-decoration: none;
+    color: white;
+    width: 94%;
+    max-width: 100%;
+    padding-top: 2%;
+    margin: auto;
+    margin-left: 35px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop: Header Styles  */
+
+  .menuPrincipal li {
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /* Desktop: Home Styles  */
+
+  .bannerContentHome h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+  }
+
+  .bannerContentHome p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 1vh;
+  }
+
+  .articleIndex button {
+    left: 50%;
+    bottom: 60px;
+    margin-bottom: 20px;
+  }
+
+  .articleIndex {
+    flex-direction: row;
+    margin: 60px 0px;
+  }
+
+  .articleIndex article {
+    width: 30%;
+    height: 280px;
+  }
+
+  .articleIndexItem {
+    background-color: rgb(18, 59, 95);
+    border-radius: 15px;
+    margin: 0px 20px;
+    width: 100%;
+  }
+
+  .articleIndexItem p{
+      margin: 20px;
+      font-size: 16px;
+  }
+
+  .clientesTextHome ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .clientesTextHome li {
+    text-align: center;
+  }
+
+  /* Desktop: Nosotros Styles  */
+
+  .bannerContentNosotros h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+  }
+
+  .bannerContentNosotros p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 1vh;
+  }
+
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 40px 0px;
+  }
+
+  .imagenEvolucion{
+    width: 800px;
+    height: 400px;
+  }
+
+  .tituloEvolucion {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+  }
+
+  .tituloEvolucion p {
+    font-size: 20px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tituloTransformacion {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionClientesUs {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+  }
+
+  .sectionClientesUs h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .sectionClientesUs ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .sectionClientesUs li {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  /* Desktop: Soluciones Styles  */
+
+  .bannerContentSoluciones h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+  }
+  
+  .bannerContentSoluciones p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+  }
+  
+
+  .sectionEstrategia {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sectionEstrategia h2 {
+    font-size: 40px;
+  }
+
+  .sectionBox {
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .sectionBox div {
+    position: relative;
+    width: 30%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px dashed rgb(194, 177, 177);
+  }
+  
+  .sectionBox div p {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* Desktop: Contacto Styles  */
+  
+  .formRegistro{
+    width: 30%;
+  }
+
+  .bannerContentContacto h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+  }
+  
+  .bannerContentContacto p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .contactoText h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 1000px;
+  }
+
+  /* Desktop: Blog Styles  */
+
+  .menuBlogs li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .blogsCulturaDigital a {
+    font-size: 16px;
+  }
+  
+  .blogsCulturaDigital p {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .bannerContentCultura h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .bannerContentCultura p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .blogsCulturaDigital {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 10px;
+  }
+}
+
+/* Desktop: Footer Styles  */
+
+.tituloFooter {
+  text-decoration: none;
+  color: white;
+  width: 94%;
+  max-width: 100%;
+  padding-top: 2%;
+  margin: auto;
+  margin-left: 35px;
+  text-align: left;
+}
+
+.redes {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
