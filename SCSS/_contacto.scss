@@ -1,0 +1,160 @@
+.bannerContacto {
+    height: calc(100vh - 50px);
+    margin: auto;
+    position: relative;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../IMG/contacto.jpg");
+    margin-bottom: 40px;
+  }
+  
+  .bannerContentContacto {
+    margin: auto;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bannerContentContacto h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .bannerContentContacto a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 1vh;
+    transition: all 0.2s;
+    animation-name: palpitoCorazon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .bannerContentContacto p {
+    margin-top: -1vh;
+      padding: 0%;
+      padding-bottom: 10px;
+      font-size: 16px;
+      text-align: center;
+      width: 250px;
+  }
+  
+  .bannerContentContacto a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .form {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+  }
+  
+  .formRegistro {
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+    border-radius: 4px;
+    background: linear-gradient(rgb(0, 34, 59), rgb(11, 101, 146));
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  
+  .formRegistro h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 95%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #646464;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+  }
+  
+  .controls select {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #646464;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+  
+  .checkbox {
+    width: 100%;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .target {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+  }
+  
+  .formRegistro .botonesForm {
+    width: 99%;
+    background: rgba(255, 17, 0, 0.705);
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .sectionTestimonio {
+    padding: 0%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+  .formRegistro{
+    width: 30%;
+  }
+
+  .bannerContentContacto h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+  }
+  
+  .bannerContentContacto p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .contactoText h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 1000px;
+  }
+}

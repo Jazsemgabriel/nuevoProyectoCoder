@@ -1,0 +1,194 @@
+.bannerHome {
+  height: calc(100vh - 50px);
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../IMG/innovacion.jpg");
+}
+
+.bannerContentHome {
+  margin: auto;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContentHome h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.bannerContentHome p {
+  margin-top: -1vh;
+  padding: 0%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.bannerContentHome a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 1vh;
+  transition: all 0.2s;
+  animation-name: palpitoCorazon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.bannerContentHome a:hover {
+  background-color: white;
+  color: black;
+}
+
+.articleIndex {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+  background-color: #e8e8e8;
+}
+
+.articleIndex article {
+  position: relative;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+
+.articleIndexItem {
+  background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+  border-radius: 15px;
+  margin: 20px 0px;
+  width: 50%;
+  padding: 40px;
+  color: white;
+}
+
+.articleIndexItem h2 {
+  margin: 10px;
+}
+
+.articleIndexItem p {
+  margin: 20px;
+  font-size: 14px;
+}
+
+.articleIndex a {
+  text-decoration: none;
+  background: orange;
+  color: white;
+  padding: 5px;
+  border: 0;
+  box-shadow: none;
+}
+
+.clientesTextHome {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.clientesTextHome ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.clientesTextHome li {
+  text-align: center;
+  line-height: 50px;
+}
+
+.clientesTextHome h2 {
+  font-size: 30px;
+}
+
+.clientesTextHome a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /* Desktop: Home Styles  */
+
+  .bannerContentHome h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+  }
+
+  .bannerContentHome p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 1vh;
+  }
+
+  .articleIndex button {
+    left: 50%;
+    bottom: 60px;
+    margin-bottom: 20px;
+  }
+
+  .articleIndex {
+    flex-direction: row;
+    margin: 60px 0px;
+  }
+
+  .articleIndex article {
+    width: 30%;
+    height: 280px;
+  }
+
+  .articleIndexItem {
+    background-color: rgb(18, 59, 95);
+    border-radius: 15px;
+    margin: 0px 20px;
+    width: 100%;
+  }
+
+  .articleIndexItem p{
+      margin: 20px;
+      font-size: 16px;
+  }
+
+  .clientesTextHome ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+
+  .clientesTextHome li {
+    text-align: center;
+  }
+}

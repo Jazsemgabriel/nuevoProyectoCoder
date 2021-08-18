@@ -1,0 +1,39 @@
+.menuPrincipal {
+    list-style: none;
+    background: #111111;
+    margin: auto;
+  }
+  
+  .menuPrincipal li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .menuPrincipal li {
+    display: block;
+    text-align: center;
+  }
+  
+  .menuPrincipal li a:hover {
+    background: #ef8354;
+  }
+  
+  .tituloMenuPrincipal {
+    text-decoration: none;
+    padding: 0%;
+    margin: auto;
+    font-size: 40px;
+  }
+
+@media only screen and (min-width: 1200px) {
+    
+    /* Desktop: Header Styles  */
+  
+    .menuPrincipal li {
+      display: inline-block;
+      font-size: 16px; 
+    }
+}

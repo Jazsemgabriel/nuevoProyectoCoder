@@ -1,0 +1,40 @@
+footer {
+    background: $colorFondo;
+    margin: auto;
+  
+    h3 {
+      text-decoration: none;
+      color: $colorSecundario;
+      width: 94%;
+      max-width: 100%;
+      padding-top: 2%;
+      margin: auto;
+      margin-left: 35px;
+      text-align: left;
+    }
+  
+    div {
+      display: flex;
+      justify-content: left;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+  
+    ul li {
+      display: inline-block;
+      margin: 5px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    a {
+      display: block;
+      padding: 0 10px;
+      background: grey;
+      color: $colorSecundario;
+      line-height: 50px;
+      font-size: 18px;
+    }
+  }

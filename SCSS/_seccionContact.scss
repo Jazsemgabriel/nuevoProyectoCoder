@@ -1,0 +1,35 @@
+.sectionContacto {
+  background: $colorGradiente;
+  padding: 40px;
+  transition: all 2s;
+}
+
+.contactoText {
+  margin: auto;
+  padding: 0%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactoText h3 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contactoText a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.contactoText a:hover {
+  background-color: white;
+  color: black;
+}

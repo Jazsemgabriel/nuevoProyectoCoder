@@ -1,0 +1,61 @@
+.sectionClientesUs {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+}
+
+.sectionClientesUs h2 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.sectionClientesUs ul {
+  list-style: none;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.sectionClientesUs li {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sectionClientesUs {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+  }
+
+  .sectionClientesUs h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .sectionClientesUs ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .sectionClientesUs li {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,204 @@
+.bannerNosotros {
+    height: calc(100vh - 50px);
+    margin: auto;
+    position: relative;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../IMG/Agencia.jpg");
+  }
+  
+  .bannerContentNosotros {
+    margin: auto;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bannerContentNosotros h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .bannerContentNosotros p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .bannerContentNosotros a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 1vh;
+    transition: all 0.2s;
+    animation-name: palpitoCorazon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .bannerContentNosotros a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .contenedorNosotros {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 20px 20px;
+  }
+  
+  .tituloEvolucion {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+  
+  .tituloEvolucion p {
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .imagenEvolucion{
+    text-align: center;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  .tituloTransformacion {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tituloTransformacion h2 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  .tituloTransformacion h3 {
+    font-size: 35px;
+  }
+  
+  .tituloTransformacion div {
+    display: inline-block;
+    margin: 20px 20px;
+  }
+  
+  .tituloTransformacion a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  .tituloTransformacion a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .sectionPartners {
+    padding: 40px 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .sectionPartners h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  .sectionPartners img {
+    max-width: 100%;
+    height: auto;
+    margin: 40px 40px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+  .bannerContentNosotros h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+  }
+
+  .bannerContentNosotros p {
+    margin-top: -1vh;
+    padding: 0%;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 1vh;
+  }
+
+  .contenedorNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    padding: 40px 0px;
+  }
+
+  .imagenEvolucion{
+    width: 800px;
+    height: 400px;
+  }
+
+  .tituloEvolucion {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+  }
+
+  .tituloEvolucion p {
+    font-size: 20px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tituloTransformacion {
+    padding: 40px 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
