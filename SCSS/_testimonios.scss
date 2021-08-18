@@ -16,7 +16,7 @@
   .border {
     width: 160px;
     height: 5px;
-    background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+    background: $colorGradiente;
     margin: 26px auto;
   }
   
@@ -34,9 +34,9 @@
   }
   
   .testimonioQuote {
-    background: linear-gradient(30deg, rgb(0, 34, 59), rgb(11, 101, 146));
+    background: $colorGradiente;
     padding: 30px;
-    color: white;
+    color: $colorSecundario;
     font-size: 14px;
   }
   
@@ -50,7 +50,7 @@
   .name {
     font-size: 20px;
     font-weight: bolder;
-    color: white;
+    color: $colorSecundario;
     text-transform: uppercase;
     margin: 20px 0px;
   }

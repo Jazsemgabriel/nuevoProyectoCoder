@@ -14,7 +14,7 @@
     padding: 0%;
     width: 100%;
     height: 100%;
-    color: white;
+    color: $colorSecundario;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
@@ -31,9 +31,9 @@
   
   .bannerContentContacto a {
     text-decoration: none;
-    color: white;
+    color: $colorSecundario;
     padding: 9px 20px;
-    border: 1px solid white;
+    border: 1px solid $colorSecundario;
     text-align: center;
     margin-top: 1vh;
     transition: all 0.2s;
@@ -52,7 +52,7 @@
   }
   
   .bannerContentContacto a:hover {
-    background-color: white;
+    background-color: $colorSecundario;
     color: black;
   }
   
@@ -68,9 +68,9 @@
     padding: 30px;
     width: 70%;
     border-radius: 4px;
-    background: linear-gradient(rgb(0, 34, 59), rgb(11, 101, 146));
+    background: $colorGradiente;
     font-family: "Raleway", sans-serif;
-    color: white;
+    color:$colorSecundario;
   }
   
   .formRegistro h3 {
@@ -80,7 +80,7 @@
   
   .controls {
     width: 95%;
-    background: white;
+    background: $colorSecundario;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -91,7 +91,7 @@
   
   .controls select {
     width: 100%;
-    background: white;
+    background: $colorSecundario;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -117,7 +117,7 @@
     background: rgba(255, 17, 0, 0.705);
     border: none;
     padding: 10px;
-    color: white;
+    color:$colorSecundario;
     margin: 10px 0;
     font-size: 16px;
   }

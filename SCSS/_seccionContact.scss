@@ -8,7 +8,7 @@
   margin: auto;
   padding: 0%;
   height: 100%;
-  color: white;
+  color: $colorSecundario;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,13 +23,13 @@
 
 .contactoText a {
   text-decoration: none;
-  color: white;
+  color: $colorSecundario;
   padding: 9px 20px;
-  border: 1px solid white;
+  border: 1px solid $colorSecundario;
   text-align: center;
 }
 
 .contactoText a:hover {
-  background-color: white;
+  background-color: $colorSecundario;
   color: black;
 }

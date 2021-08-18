@@ -152,7 +152,7 @@ body {
     width: 30%;
     height: 280px; }
   .articleIndexItem {
-    background-color: #123b5f;
+    background-color: linear-gradient(30deg, #00223b, #0b6592);
     border-radius: 15px;
     margin: 0px 20px;
     width: 100%;
@@ -171,7 +171,7 @@ body {
 
 .menuPrincipal {
   list-style: none;
-  background: #111111;
+  background: black;
   margin: auto; }
 
 .menuPrincipal li a {
@@ -769,7 +769,7 @@ footer {
   padding: 30px;
   width: 70%;
   border-radius: 4px;
-  background: linear-gradient(#00223b, #0b6592);
+  background: linear-gradient(30deg, #00223b, #0b6592);
   font-family: "Raleway", sans-serif;
   color: white; }
 
@@ -847,7 +847,7 @@ footer {
   height: calc(100vh - 50px);
   margin: auto;
   position: relative;
-  background-color: #f5f5f5;
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-image: url("../IMG/blog.jpg"); }
