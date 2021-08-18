@@ -9,7 +9,8 @@
     color: $colorSecundario;
     padding: 20px;
     display: block;
-    font-weight: bold;
+
+    @extend %fontStyle1;
   }
   
   .menuPrincipal li {

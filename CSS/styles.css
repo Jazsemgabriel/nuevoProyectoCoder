@@ -1,3 +1,9 @@
+.menuPrincipal li a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none; }
+
 * {
   margin: 0;
   padding: 0;
@@ -178,8 +184,7 @@ body {
   text-decoration: none;
   color: white;
   padding: 20px;
-  display: block;
-  font-weight: bold; }
+  display: block; }
 
 .menuPrincipal li {
   display: block;
